@@ -1,6 +1,6 @@
 {
   "name": "native-datetime",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Date and Time picker for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -21,7 +21,12 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "date",
+    "time",
+    "calendar",
+    "date-picker",
+    "time-picker"
   ],
   "repository": "https://github.com/YogendraShelke/native-datetime",
   "author": "Yogendra Shelke <yogendra.s@somaiya.edu> (https://github.com/YogendraShelke)",
@@ -33,15 +38,11 @@
   "devDependencies": {
     "@react-native-community/bob": "^0.16.2",
     "react": "16.11.0",
-    "react-native": "0.62.2"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react-native": "0.62.0",
+    "@react-native-community/datetimepicker": "^2.6.1"
   },
   "dependencies": {
-    "moment": "^2.22.0",
-    "@react-native-community/datetimepicker": "^2.4.0"
+    "moment": "^2.22.0"
   },
   "@react-native-community/bob": {
     "source": "src",

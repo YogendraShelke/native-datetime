@@ -12,12 +12,14 @@ npm install native-datetime
 
 ```sh
 npm install @react-native-community/datetimepicker
+
+cd ios && pod install && cd ..
 ```
 
 ## Usage
 
 ```js
-import NativeDateTimePicker from "native-datetime";
+import DatePicker from "native-datetime";
 
 // ...
 

@@ -8,7 +8,7 @@ Date and Time picker for React Native
 npm install native-datetime
 ```
 
-### Install peer dependancy
+### Install peer dependency
 
 ```sh
 npm install @react-native-community/datetimepicker
